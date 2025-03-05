@@ -19,6 +19,7 @@ body {
 }
 
 .about-container {
+    height: 250px;
     display: flex;
     gap: 20px;
 }
@@ -30,6 +31,7 @@ body {
     text-align: left;
     font-size: larger;
     padding: 30px;
+    overflow-y: auto;
 }
 
 .about-social {
@@ -52,10 +54,25 @@ body {
     #about {
         margin: 10px 100px;
     }
+
+    .about-info {
+        height: 235px;
+        padding: 10px 20px;
+    }
+
+    .about-social {
+        padding: 10px;
+        height: 235px;
+    }
 }
 
 @media (max-width: 768px) {
     #about {
         margin: 10px 50px;
+    }
+
+    .about-img img {
+        width: 150px;
+        height: 150px;
     }
 }
