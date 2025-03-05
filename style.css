@@ -4,18 +4,58 @@ body {
     font-family: monospace;
 }
 
+#about {
+    margin: 10px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .about-name {
     background-color: #B2EBF2;
     border-radius: 24px;
     text-align: center;
+    font-size: x-large;
+}
+
+.about-container {
+    display: flex;
+    gap: 20px;
 }
 
 .about-info {
     background-color: #B2EBF2;
     border-radius: 24px;
+    line-height: 1.5em;
+    text-align: left;
+    font-size: larger;
+    padding: 30px;
 }
 
 .about-social {
     background-color: #B2EBF2;
     border-radius: 24px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.about-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+@media (max-width: 1024px) {
+    #about {
+        margin: 10px 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    #about {
+        margin: 10px 50px;
+    }
 }
