@@ -57,33 +57,6 @@ body {
     border-radius: 50%;
 }
 
-@media (max-width: 1024px) {
-    #about {
-        margin: 10px 100px;
-    }
-
-    .about-info {
-        height: 235px;
-        padding: 10px 20px;
-    }
-
-    .about-social {
-        padding: 10px;
-        height: 235px;
-    }
-}
-
-@media (max-width: 768px) {
-    #about {
-        margin: 10px 50px;
-    }
-
-    .about-img img {
-        width: 150px;
-        height: 150px;
-    }
-}
-
 #projects {
     margin: 10px 200px;
 }
@@ -179,4 +152,48 @@ body {
     justify-content: center;
     padding: 20px;
     gap: 50px;
+}
+
+@media (max-width: 1024px) {
+    #about {
+        margin: 10px 100px;
+    }
+
+    .about-info {
+        height: 235px;
+        padding: 10px 20px;
+    }
+
+    .about-social {
+        padding: 10px;
+        height: 235px;
+    }
+}
+
+@media (max-width: 768px) {
+    #about {
+        margin: 10px 50px;
+    }
+
+    .about-img img {
+        width: 150px;
+        height: 150px;
+    }
+
+    #projects {
+        margin: 10px 50px;
+    }
+
+    #experience {
+        margin: 10px 50px;
+    }
+
+    #skills {
+        margin: 10px 50px;
+    }
+
+    .skills-container {
+        gap: 25px;
+        justify-content: space-between;
+    }
 }
